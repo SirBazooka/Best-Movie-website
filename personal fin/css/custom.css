@@ -1,0 +1,33 @@
+body.custom{
+    font-size: 2rem !important;
+}
+
+body.custom .lead {
+	font-size: 2rem !important;
+}
+
+body.custom .container{
+    max-width: 80% !important;
+}
+
+body.custom a {
+	font-size: 2rem !important;
+}
+
+@media print{
+	body.custom{
+		font-size: 1.5rem !important;
+	}
+
+	body.custom .lead{
+		font-size: 1.5rem !important;
+	}
+
+	body.custom .container{
+		max-width: 70% !important;
+	}
+
+	body.custom a {
+		font-size: 1.5rem !important;
+	}
+}
